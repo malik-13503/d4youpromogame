@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import gameCardImage from "@assets/Home-page-D4U-Pros-Scratch-&-Win-Game-Card-EMPTY_1751279689511.png";
+import gameCardImage from "../../../attached_assets/Home-page-D4U-Pros-Scratch-&-Win-Game-Card-EMPTY_1751279689511.png";
 
 export default function GamePreview() {
   const { data: stats } = useQuery({
